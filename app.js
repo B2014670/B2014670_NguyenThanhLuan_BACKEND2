@@ -25,8 +25,8 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-    // res.json({ message: "Welcome to contact book application."});
-    res.send({ message: "findOne handler" });
+    res.json({ message: "Welcome to contact book application."});
+    
 });
 
 
